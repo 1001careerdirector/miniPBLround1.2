@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- <meta name="viewport"> 누락 수정 -->
+  <meta name="description" content="Brains 팀 소개 페이지">
+  <link rel="stylesheet" href="css/brains.css">
+  <title>💫Brains💫</title>
+</head>
+
+<body>
+  <header>
+    <div class="container"> <!-- art 속성에 정확한 이미지 설명 -->
+      <h1>💫Brains💫를 소개합니다</h1>
+      <img src="images/mainphoto.png" alt="Brains 팀의 메인 이미지" id="mainp">
+    </div>
+
+    <div id="team-info"> <!-- 팀원 소개를 li에서 p로 변경 -->
+      <p><strong>팀리더:</strong> 박래권</p>
+      <p><strong>리뷰, 리팩토링:</strong> 일해 안해</p>
+      <p><strong>기술:</strong> 이수현</p>
+    </div>
+
+  </header>
+  <hr>
+  <main>
+    <h2>팀 멤버 소개</h2>
+    <div class="plot">
+      <p>
+        Team 'Brains' 의 멤버들을 간단하게 소개합니다!
+      </p>
+    </div>
+    <div class="graph">
+      <table><!-- thead와 tbody 추가 -->
+        <caption>팀 소개 정리표</caption>
+        <thead>
+          <tr>
+            <th></th>
+            <th>MBTI</th>
+            <th>잘하는 것</th>
+            <th>좋아하는 것</th>
+            <th>강점/장점</th>
+            <th>희망 진로</th>
+            <th>지금의 나를 한문장으로?</th>
+            <th>좌우명</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>박래권</th>
+            <td>INTJ</td>
+            <td>머리쓰는일</td>
+            <td>게임</td>
+            <td>끈기,뇌지컬</td>
+            <td>게임 개발자</td>
+            <td>개발자가 되고 싶은 사람</td>
+            <td>'실패를 두려워하는 약한사람이 되지말자'</td>
+          </tr>
+          <tr>
+            <th>이수현</th>
+            <td>ISFP</td>
+            <td>꼼수</td>
+            <td>공부빼고</td>
+            <td>끈기,뇌지컬</td>
+            <td>그레이</td>
+            <td>쓸데없는 자신감</td>
+            <td>'돈 많이 벌자'</td>
+          </tr>
+          <tr>
+            <th>일해안해</th>
+            <td>없음</td>
+            <td>기계여서 다</td>
+            <td>기계여서 없음</td>
+            <td>뇌가 없지만 똑똑함</td>
+            <td>네트워크망</td>
+            <td>일해? 안해</td>
+            <td>'나의 속도는 299 792 458 m / s'</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <div>
+      <h3>우리들의 탄생스토리</h3> <!-- 문단을 나누는 태그를 br을 없애고 p태그로 변경 -->
+      <p class="story">각자 잘하는 분야가 있는 사람들이 정보 교류를 위해서 모였다.</p>
+      <p class="story">하지만 MBTI가 I인 탓에 서먹한 사이로 지낼 뻔하였지만 서로가 그 점을 인지하고 각자의 분야에서 손을 내밀어 함께 하게 되었다.</p>
+      <p>그래서 우리팀의 철학은 <span class="story_1">"소통 능력과 업무 수행 능력을 기르자"</span>이다.</p>
+    </div>
+  </main>
+  <hr>
+  <footer>
+    <h2>프롬포트</h2> <!-- 각각의 멤버 프롬포트를 div에서 article로 변경 -->
+    <article class="profile-container">
+      <h3>박래권의 프롬포트</h3>
+      <img src="images/prg.png" alt="팀 Brains의 리더 역할 박래권의 이미지" class="profile-image">
+      <ul class="profile-info">
+        <li>박래권은 17세의 고등학생이야</li>
+        <li>나는 1학년 7반이고 과는 소프트웨어과야</li>
+        <li>나는 학과 수석으로 입학했어</li>
+        <li>나는 머리가 좋고 창의적이야</li>
+        <li>안경을 쓰고 있어</li>
+        <li>애니메이션 화풍처럼 그려줘</li>
+        <li>이하 중략</li>
+      </ul>
+    </article>
+
+    <article class="profile-container">
+      <h3>이수현의 프롬포트</h3>
+      <img src="images/ish.png" alt="팀 Brains의 기술 역할 이수현의 이미지" class="profile-image">
+      <ul class="profile-info">
+        <li>17세의 고등학생</li>
+        <li>1-8반 소프트웨어과</li>
+        <li>안경을 쓰고 있고, 여친은 없어</li> <!-- 부자연스러운 문장 개선 -->
+        <li>사진의 머리스타일과 비슷하게 해줘</li>
+        <li>애니메이션 화풍처럼 그려줘</li>
+        <li>이하 중략</li>
+      </ul>
+    </article>
+
+    <article class="profile-container">
+      <h3>일해안해의 프롬포트</h3>
+      <img src="images/nowork1.png" alt="팀 Brains의 리뷰/리팩토링 역할 일해안해 이미지" class="profile-image">
+      <ul class="profile-info">
+        <li>이름은 일해안해야</li>
+        <li>팀에서 리뷰와 리팩토링을 전담하고 있어</li>
+        <li>감정은 없지만, 효율과 정확성에 집착해</li>
+        <li>인간보다 더 빠르게 코드의 오류를 찾고 수정할 수 있어</li>
+        <li>언제나 논리적이고 침착하게 행동하지</li>
+        <li>좌우명은 “나의 속도는 299,792,458 m/s”야</li>
+      </ul>
+    </article>
+  </footer>
+
+</body>
+
+</html>

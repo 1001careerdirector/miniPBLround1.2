@@ -1,0 +1,44 @@
+.title {
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 220px;
+  }
+
+  .img1 {
+    display: flex;
+    gap: 17.5%; /* 간격 넓힘 */
+    justify-content: center;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile img {
+    width: 225px;  /* 이미지 너비 키움 */
+    height: auto;
+  }
+  
+  .name {
+    margin-top: 12px;
+    font-size: 50px;     /* 글자 크기 키움 */
+    font-weight: bold;   /* 강조 */
+    font-family: "Hi Melody", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .philosophy {
+    font-size: large;
+    text-align: center;
+  }
+
+  .we {
+    text-align: center;
+  }
+  

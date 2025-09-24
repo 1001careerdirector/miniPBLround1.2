@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>탐 켄치와 함께 재개발</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        form {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        fieldset {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        fieldset:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        legend {
+            font-weight: 700;
+            font-size: 1.4rem;
+            padding: 0 10px;
+            color: #0078d7;
+        }
+
+        img {
+            border-radius: 12px;
+            width: 280px;
+            height: auto;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
+        }
+
+        p {
+            flex: 1;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        p br {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 700px) {
+            fieldset {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            img {
+                width: 80%;
+                max-width: 300px;
+                margin: 0 auto;
+            }
+
+            p {
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>팀리더</legend>
+            <p>
+                이름: 황석근<br>
+                역할: 팀 리더
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>기술</legend>
+            <img src="https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-f500-622f-9d34-ab03cdf3fb3d/raw?se=2025-05-17T04%3A48%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-17T01%3A36%3A25Z&ske=2025-05-18T01%3A36%3A25Z&sks=b&skv=2024-08-04&sig=eNrSdQYi0AyIHXGrIeUPfLHzcu4CsRP7GfmvqVCEXXY%3D"
+                alt="강민준">
+            <p>
+                이름: 강민준<br>
+                역할: 기술<br>
+                좋아하는 것: 게임<br>
+                장단점: 재미있는 것에 몰두하지만 다른 것에는 흥미가 없다.
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>리뷰, 리펙토링</legend>
+            <img src="https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-f640-622f-b459-8bf6a37a03c2/raw?se=2025-05-17T04%3A48%3A40Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-17T01%3A36%3A23Z&ske=2025-05-18T01%3A36%3A23Z&sks=b&skv=2024-08-04&sig=0oj/s/epIhn4bSZGH1gEtexbKtejJQXsvoj6Q%2BXRwzQ%3D"
+                alt="탐 켄치">
+            <p>
+                이름: 탐 켄치<br>
+                역할: 리뷰, 리펙토링<br>
+                좋아하는 것: 폭식<br>
+                장단점: 먹기만 해서 굶어 본 적이 없지만 고도 비만이다.
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>팀 탄생 설화</legend>
+            <img src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5824-61f7-8e5a-2edd70b705cf/raw?se=2025-05-17T05%3A14%3A27Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=732f244e-db13-47c3-bcc7-7ee02a9397bc&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-17T04%3A02%3A06Z&ske=2025-05-18T04%3A02%3A06Z&sks=b&skv=2024-08-04&sig=p%2B42RTjvo/pH05omHgYB%2Bxhp96r2%2BIfst4qBKgjqFNI%3D"
+                alt="팀 탄생 설화">
+            <p>
+                2025년, 미래 유망에 참여하게 된 석근과 민준은<br>
+                라이엇과 ChatGPT에서 만든 탐 켄치와 함께 팀을 이루며 재개발에 나선다.
+            </p>
+        </fieldset>
+    </form>
+</body>
+
+</html>

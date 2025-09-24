@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background: linear-gradient(135deg, #aee1f9, #d6f0ff);
+  color: #333;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.info,
+.plot {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  color: #222;
+}
+
+.info:hover,
+.plot:hover {
+  transform: translateY(-5px);
+}
+
+.info img,
+.plot img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  border-radius: 12px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+li strong {
+  color: #005799;
+}
+
+hr {
+  margin: 50px auto;
+  border: 0;
+  height: 2px;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.main-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 600px) {
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* 팀 스토리 섹션 스타일 */
+.team-story {
+  background-color: #f9f9f9;
+  padding: 24px;
+  border-radius: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Helvetica', 'Apple SD Gothic Neo', sans-serif;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* 팀 스토리 제목 스타일 */
+.team-story h2 {
+  font-size: 1.6em;
+  color: #333;
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+/* 팀 철학 목록 스타일 */
+.team-story ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.team-story ul li {
+  margin-bottom: 10px;
+}
+
+/* 인용/강조 문장 스타일 */
+.team-story em {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  color: #666;
+}
